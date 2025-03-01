@@ -6,6 +6,8 @@ public class Main {
         int a= sc.nextInt();
         if(a < 0){
             System.out.println(a +"\n" + "minus");
+        }else{
+            System.out.println(a);
         }
     }
 }
