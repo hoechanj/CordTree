@@ -4,8 +4,12 @@ public class Main {
         // Please write your code here.
         Scanner sc= new Scanner(System.in);
 
-        String str = sc.nextLine();
-        String[] parts = str.split("-");
-        System.println(parts[0], "." + parts[1] + "." +parts[2]);
+        int a= sc.nextInt();
+        int b= sc.nextInt();
+        int sum = a+b;
+
+        System.out.print(a + " " + b + " " + sum);
+
+       
     }
 }
